@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "arcanerealms",
+  "version": "${version}",
+  "name": "Arcane Realms",
+  "description": "Three sculpted 3D staffs, twelve vibrant utility spells, mana, crafting and magical effects.",
+  "authors": ["Arcane Realms Project"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.arcanerealms.ArcaneRealms"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
